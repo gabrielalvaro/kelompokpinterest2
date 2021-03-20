@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3" />
+    <!-- Your app title -->
+    <title>CovidApp</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="css/framework7.bundle.min.css" />
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css" />
+    <link rel="stylesheet" href="css/framework7-icons.css" />
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page" style="background-color: rgb(53, 53, 53)">
+          <div class="popup popup-about">
+            <div class="block">
+              <p>
+                <a class="link popup-close text-color-orange" href="#">Close</a>
+              </p>
+              <h2>Kelompok Pinterest</h2>
+              <!-- Close Popup -->
+              <p>1. Gabriel Alvaro - 2014000008</p>
+              <p>2. Muhammad Riyandi Putra - 2013000002</p>
+              <p>3. Raihanissa - 2014000020</p>
+            </div>
+          </div>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            <!-- Static Navbar -->
+            <div class="navbar no-shadow">
+              <div
+                class="navbar-bg"
+                style="background-color: transparent"
+              ></div>
+              <div class="navbar-inner">
+                <div class="title text-color-white font-bolds">Covid App</div>
+                <p class="text-color-white font-regular"
+                style="margin-top: 18px; font-size: -15px"> 
+                 <br />
+                 ᴋᴇʟᴏᴍᴘᴏᴋ ᴘɪɴᴛᴇʀᴇꜱᴛ
+             </p>
+                <div class="right block">
+                  <a
+                    href="#"
+                    class="text-color-white popup-open"
+                    data-popup=".popup-about"
+                  >
+                    <i class="f7-icons">info_circle_fill</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Banner & Header -->
+            <img src="https://i.pinimg.com/originals/a8/d8/66/a8d866c87e75ae65af8a3f167ee1e8f6.gif"
+             class="banner" alt="" />
+
+            <div class="block header" style="margin-top: -190px">
+              <h1 class="text-color-white font-regular"> 𝙈𝙚𝙧𝙖𝙨𝙖 𝙎𝙖𝙠𝙞𝙩?</h1>
+              <p class="text-color-white font-regular"
+                 style="margin-top: 18px; font-size: -15px"> 
+                 𝙆𝙖𝙡𝙖𝙪 𝙖𝙣𝙙𝙖 𝙢𝙚𝙢𝙞𝙡𝙞𝙠𝙞 𝙜𝙚𝙟𝙖𝙡𝙖 𝙘𝙤𝙫𝙞𝙙-𝙓𝙄𝙓 <br />
+                𝙨𝙚𝙜𝙚𝙧𝙖 𝙩𝙚𝙡𝙥𝙤𝙣 𝙖𝙩𝙖𝙪 𝙨𝙢𝙨 𝙪𝙣𝙩𝙪𝙠 𝙗𝙖𝙣𝙩𝙪𝙖𝙣
+              </p>
+
+              <div
+                class="bg-color-blue elevation-1"
+                style="height : 150px; border-radius:20px"
+              >
+                <br />
+                <center>
+                  <div class="row margin-half">
+                    <div class="col text-color-white">
+                      <i class="f7-icons iconz">telephone</i>
+                      <h2 class="font-regular texts">𝗧𝗲𝗹𝗲𝗽𝗼𝗻</h2>
+                    </div>
+                    <div class="col text-color-white">
+                      <i class="f7-icons iconz">chat_bubble_text</i>
+                      <h2 class="font-regular texts">𝗦𝗠𝗦</h2>
+                    </div>
+                    <div class="col text-color-white">
+                      <i class="f7-icons iconz">map</i>
+                      <h2 class="font-regular texts">𝗥𝘂𝗺𝗮𝗵 𝗦𝗮𝗸𝗶𝘁 𝗧𝗲𝗿𝗱𝗲𝗸𝗮𝘁</h2>
+                    </div>
+                  </div>
+                </center>
+              </div>
+            </div>
+
+            <!-- Content -->
+
+            <div class="block">
+              <h2 class="text-color-white font-bolds">Statistik (Indonesia)</h2>
+              <div class="row">
+                <div class="col-50">
+                  <div
+                    class="card elevation-1 bg-color-deeporange"
+                    style="border-radius: 15px"
+                  >
+                    <div class="card-content card-content-padding">
+                      <h1
+                        class="font-bolds text-color-white"
+                        style="margin-top: -5px; font-size: 40px"
+                      >
+                       1,437,283
+                      </h1>
+                      <p
+                        style="margin-top: -35px; font-size: 20px"
+                        class="text-color-white font-light"
+                      >
+                        Kasus
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div
+                    class="card elevation-1 bg-color-red"
+                    style="border-radius: 15px"
+                  >
+                    <div class="card-content card-content-padding">
+                      <h1
+                        class="font-bolds text-color-white"
+                        style="margin-top: -5px; font-size: 40px"
+                      >
+                       38,915
+                      </h1>
+                      <p
+                        style="margin-top: -35px; font-size: 20px"
+                        class="text-color-white font-light"
+                      >
+                        Meninggal Dunia
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div
+                    class="card elevation-1 bg-color-green"
+                    style="border-radius: 15px"
+                  >
+                    <div class="card-content card-content-padding">
+                      <h1
+                        class="font-bolds text-color-white"
+                        style="margin-top: -5px; font-size: 40px"
+                      >
+                       1,266,673
+                      </h1>
+                      <p
+                        style="margin-top: -35px; font-size: 20px"
+                        class="text-color-white font-light"
+                      >
+                        Sembuh
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-50">
+                  <div
+                    class="card elevation-1 bg-color-blue"
+                    style="border-radius: 15px"
+                  >
+                    <div class="card-content card-content-padding">
+                      <h1
+                        class="font-bolds text-color-white"
+                        style="margin-top: -5px; font-size: 40px"
+                      >
+                        131,695
+                      </h1>
+                      <p
+                        style="margin-top: -35px; font-size: 20px"
+                        class="text-color-white font-light"
+                      >
+                        Kasus Aktif
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="block">
+              <h2 class="font-bolds text-color-white">Pencegahan</h2>
+
+              <div class="card">
+                <div class="card-content">
+                  <div class="list media-list">
+                    <ul>
+                      <li class="item-content">
+                        <div class="item-media">
+                          <img src="img/mask.svg" width="44" />
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-title-row">
+                            <div class="item-title">𝗚𝘂𝗻𝗮𝗸𝗮𝗻 𝗠𝗮𝘀𝗸𝗲𝗿 𝗻𝗼𝗻-𝘀𝗰𝘂𝗯𝗮</div>
+                          </div>
+                          <div class="item-subtitle">Masker scuba tidak efektif</div>
+                        </div>
+                      </li>
+                      <li class="item-content">
+                        <div class="item-media">
+                          <img src="img/wash.svg" width="44" />
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-title-row">
+                            <div class="item-title">
+                              𝗥𝗮𝗷𝗶𝗻 𝗺𝗲𝗻𝗰𝘂𝗰𝗶 𝘁𝗮𝗻𝗴𝗮𝗻</div>
+                          </div>
+                          <div class="item-subtitle">Setelah selesai menyentuh apapun</div>
+                        </div>
+                      </li>
+                      <li class="item-content">
+                        <div class="item-media">
+                          <img src="img/distance.svg" width="44" />
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-title-row">
+                            <div class="item-title">𝗝𝗮𝗴𝗮 𝗷𝗮𝗿𝗮𝗸</div>
+                          </div>
+                          <div class="item-subtitle">Untuk menghindari kontak covid</div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="block">
+              <div class="card card-expandable">
+                <div class="card-content">
+                  <div class="card-bgr" style="height: 300px">
+                    <div class="card-header text-color-white display-block">
+                      𝗖𝗼𝘃𝗶𝗱 - 𝟭𝟵
+                      <br />
+                      <small style="opacity: 0.7">Kenali gejala Covid-19</small>
+                    </div>
+                    <a
+                      href="#"
+                      class="link card-close card-opened-fade-in color-red"
+                      style="position: absolute; right: 15px; top: 15px"
+                    >
+                      <i class="icon f7-icons">xmark_circle_fill</i>
+                    </a>
+                  </div>
+                  <div class="card-content-padding">
+                    <h3>Demam</h3>
+                    <p>suhu tubuh di atas 38 derajat Celsius</p>
+                    <br />
+                    <h3>Batuk</h3>
+                    <p>tidak berdahak/kering</p>
+                    <br />
+                    <h3>Sakit kepala</h3>
+                    <p>yang terus menerus</p>
+                    <br />
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="js/framework7.bundle.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
